@@ -145,7 +145,7 @@
 @media all and (max-width: 575px) {
 	.nav-right-part .signin-btn,
 	.nav-right-part .btn {
-		display: none;
+		display: inherit;
 	}
 	.banner-inner .title {
 	    font-size: 35px;

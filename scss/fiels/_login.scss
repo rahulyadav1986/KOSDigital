@@ -76,5 +76,12 @@
         .main_wrapper{
             max-width: 90%;
         }
+
+        .forgot{
+            flex-wrap: wrap;
+            .for{
+                flex: 0 0 100%
+            }
+        }   
     }
 }

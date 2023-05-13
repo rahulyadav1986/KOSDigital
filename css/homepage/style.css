@@ -2241,7 +2241,8 @@ ul {
   }
 
   .nav-right-part-mobile {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 
   .nav-right-part-desktop {
