@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background-image: url(../images/bg.jpg);
   background-size: cover;
+  background-position: center;
 }
 .login_form_wrapper:after {
   width: 100%;
