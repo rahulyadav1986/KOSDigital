@@ -9,30 +9,81 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-    <div class="login_form_wrapper d-flex align-items-center justify-content-center">
+    <div class="login_form_wrapper register d-flex align-items-center justify-content-center">
         <div class="main_wrapper">
             <img src="images/logo.jpg" alt="">
             <form class="row g-3 needs-validation" novalidate>
-                <div class="portion">
-                    <label for="">* Username</label>
-                    <input type="text" placeholder="Email" class="form-control">
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Name</label>
+                        <input type="text" placeholder="Name" class="form-control">
+                    </div>
                 </div>
-                <div class="portion">
-                    <label for="">* Password</label>
-                    <input type="password" placeholder="Password" class="form-control">
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Username</label>
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
                 </div>
-                <div class="portion">
-                    <label for="">* Confirm Password</label>
-                    <input type="password" placeholder="Confirm Password" class="form-control">
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Password</label>
+                        <input type="password" placeholder="Password" class="form-control">
+                    </div>
                 </div>
-                <div class="portion">
-                    <label for="">* Phone No</label>
-                    <input type="text" placeholder="Phone No" class="form-control">
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Confirm Password</label>
+                        <input type="password" placeholder="Confirm Password" class="form-control">
+                    </div>
                 </div>
-                <div class="portion">
-                    <label for="">Refferal Code</label>
-                    <input type="text" placeholder="Refferal Code" class="form-control">
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Country</label>
+                        <select id="code_select1" name="" class="form-control" id="">
+                            <option value="+91">India</option>
+                            <option value="+88">Bangladesh</option>
+                        </select>
+                    </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Language</label>
+                        <select name="" class="form-control" id="">
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Bangla">Bangla</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Phone No</label>
+                        <div class="d-flex withForm">
+                            <input type="text" value="+91" class="form-control code" readonly name="" id="">
+                            <input type="text" placeholder="Phone No" class="form-control">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">* Whatsapp</label>
+                        <div class="d-flex withForm">
+                            <input type="text" value="+91" class="form-control code" readonly name="" id="">
+                            <input type="text" placeholder="Whatsapp" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-6">
+                    <div class="portion">
+                        <label for="">Refferal Code</label>
+                        <input type="text" placeholder="Refferal Code" class="form-control">
+                    </div>
+                </div>
+                
                 <div class="forgot d-flex align-items-center justify-content-between">
                     <input type="submit" class="btn btn-theme" value="Register">
                 </div>

@@ -18,3 +18,10 @@
         }, false)
       })
   })()
+
+
+
+  $("#code_select1").on("change",function(){
+    var GetValue=$("#code_select1").val();
+    $(".code").val(GetValue);
+ });

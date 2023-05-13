@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   content: "";
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .login_form_wrapper img {
   width: 15rem;
@@ -62,11 +62,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .login_form_wrapper .main_wrapper {
   box-shadow: rgba(0, 0, 0, 0.1) 1px 0 20px;
-  width: 30%;
+  max-width: 576px;
   padding: 2rem;
   position: relative;
   z-index: 2;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border-radius: 5px;
@@ -96,5 +96,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 .login_form_wrapper .main_wrapper .btn:hover {
   background-color: var(--secondaryColor);
-}/*# sourceMappingURL=style.css.map */
+}
 
+.withForm .code {
+  width: 40px;
+  border-right: 0;
+}
+
+.form-control {
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .login_form_wrapper.register {
+    height: auto;
+  }
+  .login_form_wrapper .main_wrapper {
+    max-width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@
         top: 0;
         left: 0;
         content: "";
-        background-color: rgba(255,255,255,.8);
+        background-color: rgba(255,255,255,.3);
     }
     img{
         width: 15rem;
@@ -20,11 +20,11 @@
     }
     .main_wrapper{
         box-shadow: rgba(0,0,0,.1) 1px 0 20px;
-        width: 30%;
+        max-width: 576px;
         padding: 2rem;
         position: relative;
         z-index: 2;
-        background-color: rgba(255, 255, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.8);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
         border-radius: 5px;
@@ -51,6 +51,30 @@
             &:hover{
                 background-color: var(--secondaryColor);
             }
+        }
+    }
+}
+
+.withForm{
+    .code{
+        width: 40px;
+        border-right: 0;
+    }
+}
+
+.form-control{
+    appearance: auto !important;
+    -webkit-appearance: auto !important;
+    -moz-appearance: auto !important;
+}
+
+@media only screen and (max-width:500px){
+    .login_form_wrapper{
+        &.register{
+            height: auto;
+        }
+        .main_wrapper{
+            max-width: 90%;
         }
     }
 }
