@@ -116,10 +116,4 @@ h1, h2, h3, h4, h5, h6 {
   .login_form_wrapper .main_wrapper {
     max-width: 90%;
   }
-  .login_form_wrapper .forgot {
-    flex-wrap: wrap;
-  }
-  .login_form_wrapper .forgot .for {
-    flex: 0 0 100%;
-  }
 }/*# sourceMappingURL=style.css.map */
